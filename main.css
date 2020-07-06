@@ -10,3 +10,24 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+.container {
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .imgBox{
+    position: relative;
+    width: 400px;
+    height: 400px;
+     margin: 10px; 
+}
+.imgBox img {
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
