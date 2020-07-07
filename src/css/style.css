@@ -187,3 +187,20 @@ section .container > * {
     bottom: 0;
     left: 0;
 }
+
+@media (max-width: 850px) {
+    section .container {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:600px) {
+    .big-title {
+        font-size: 3rem;
+    }
+    .text {
+        font-size: .8rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+}
