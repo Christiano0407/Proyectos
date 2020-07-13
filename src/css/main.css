@@ -230,4 +230,31 @@
   .right-panel .content {
     transform: translateX(800px);
   }
-  
+
+ /*  ANIMATION */
+ .container.sign-in-mode::before{
+     transform: translate(100%, -50%);
+     right: 52%;
+ }
+ .container.sign-in-mode .left-panel .image,
+ .container.sign-in-mode .left-panel .content {
+     transform: translateX(-800px);
+ }
+
+ .container.container.sign-in-mode.signin-signup {
+     left: 25%;
+ }
+ .container.sign-in-mode form..sign-up-form {
+     opacity: 1;
+     z-index: 2;
+ }
+ .container.sign-in-mode .right-panel .image,
+ .container.sign-in-mode .right-panel .content {
+     transform: translateX(0%);
+ }
+ .container.sign-in-mode .left-panel {
+     pointer-events: none;
+ }
+ .container.sign-in-mode .right-panel {
+     pointer-events: all;
+ }
