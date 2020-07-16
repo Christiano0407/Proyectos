@@ -69,3 +69,11 @@ display: flex;
 .btn:hover {
     opacity: 0.9;
 }
+/* showcase */
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+.showcase .btn {
+    margin-top: 20px;
+}
